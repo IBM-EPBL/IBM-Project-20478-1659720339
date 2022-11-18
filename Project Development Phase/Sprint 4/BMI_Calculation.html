@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          background-image: url("image.jpg");
+          background-repeat: no-repeat;
+          background-image: cover;
+        }
+    </style>
+</head>
+<body>
+    <form action="/BMI_Calculation" method="POST">
+    <div class="calculator-container">
+        <center>
+        <h1>BMI CALCULATOR</h1>
+        <label>Height:</label>
+        <input class="Height-input-field" type="text">
+        <br></br>
+        <label>Weight:</label>
+        <input class="Weight-input-field" type="text"><br>
+        <button class="calculate"> Calculate</button>
+    </div>
+    <h3 class="result"></h3>
+    <p class="result-statement"></p>
+    <script src="script.js"></script>
+      </center>
+    </form>
+</body>
+</html>
